@@ -19,7 +19,7 @@ scoop install flutter
 ## Android Studio のインストール
 Android Studio をインストールする。
 ```console
-scoop install android-Studio
+scoop install android-studio
 ```
 
 これにより、Android SDK、Android SDK コマンドラインツール、および Android SDK ビルドツールがインストールされる。これらは、Android 向けに開発するときに Flutter に必要となる。
