@@ -1,12 +1,12 @@
 # Flutter 開発環境セットアップ
 
 ## 実行環境
-Windows 端末:
-Windows 10 Home 64bit バージョン 1909（OS ビルド 18363.1082）
-Git 2.28.0.windows.1
+Windows 端末:  
+Windows 10 Home 64bit バージョン 1909（OS ビルド 18363.1082）  
+Git 2.28.0.windows.1  
 
-Androidデバイス: 
-Android 9
+Androidデバイス:   
+Android 9  
 
 以降のコマンドは Windows Terminal で開いた Git Bash で行う。
 
