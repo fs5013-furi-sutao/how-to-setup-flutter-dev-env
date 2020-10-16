@@ -76,7 +76,7 @@ C:\Users\＜ユーザ名＞\scoop\apps\flutter\current\bin
 これで Flutter プロジェクトが作成される。
 
 ## エミュレータの作成
-事前に Android Studio の AMD（Android Device Manager）でエミュレータを作成しておく。
+事前に Android Studio の AVD（Android Virtual Device）Manager でエミュレータを作成しておく。
 
 エミュレータを作成したら、Android Studio は閉じておいても OK。
 
@@ -86,6 +86,17 @@ VSCode で Flutter プロジェクトを開くと、右下のバーに「No Devi
 この「No Device」をクリックする。
 
 すると、コマンドパレットに利用できるエミュレータが表示されるので、利用したいエミュレータを選択する。
+
+### うまくエミュレータが立ち上がらない時は・・・
+エミュレータを選択しても以下のようなエラーが出て、うまく立ち上がらない場合もある。
+```
+Failed to launch emulator: Error: Emulator didn't connected within 60 seconds
+```
+そうした場合は、Android Studio の AVD Manager を開く。
+
+対象デバイスの Actions 欄から「下向き三角（▼）」のアイコンを押して Wipe Data を選択する。
+
+一度、Wipe Data を実行してからエミュレータを起動すると、起動が成功し、VSCode にデバイスの接続が認識されるはず。
 
 ## Flutter プロジェクトの起動
 
