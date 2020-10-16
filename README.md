@@ -11,7 +11,7 @@ Android 9
 以降のコマンドは Windows Terminal で開いた Git Bash で行う。
 
 ## flutter と dart のインストール
-Flutter をインストールする。Dart は Flutter に同梱されている。 
+Flutter をインストールする。Flutter 用の Dart は Flutter に同梱されている。 
 ```console
 scoop install flutter
 ```
