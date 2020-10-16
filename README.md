@@ -71,14 +71,14 @@ C:\Users\＜ユーザ名＞\scoop\apps\flutter\current\bin
 
 次にプロジェクト名を入力する（hello_world など）。
 
-そして、プロkジェクトを作成する場所を指定する（Desktop など）。
+そして、プロジェクトを作成する場所を指定する（Desktop など）。
 
 これで Flutter プロジェクトが作成される。
 
 ## エミュレータの作成
 事前に Android Studio の AMD（Android Device Manager）でエミュレータを作成しておく。
 
-エミュレータを作成しておいたら、Android Studio は閉じておいても OK。
+エミュレータを作成したら、Android Studio は閉じておいても OK。
 
 ## VSCode でエミュレータを開く
 VSCode で Flutter プロジェクトを開くと、右下のバーに「No Device」と表示される。
